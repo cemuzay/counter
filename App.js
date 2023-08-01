@@ -21,7 +21,7 @@ export default function App() {
   const handleDecrement = () => {
     setCount(count - 1);
   };
-  if(count<=0){
+  if(count<0){
     alert("Sayaç negatif olamaz");
   }
   return (
